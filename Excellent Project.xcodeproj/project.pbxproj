@@ -15,6 +15,8 @@
 		D8641E801FC4C16A00C35AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E7F1FC4C16A00C35AF2 /* main.m */; };
 		D8641E8A1FC4C16B00C35AF2 /* Excellent_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E891FC4C16B00C35AF2 /* Excellent_ProjectTests.m */; };
 		D8641E951FC4C16B00C35AF2 /* Excellent_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E941FC4C16B00C35AF2 /* Excellent_ProjectUITests.m */; };
+		D8641EA41FC4C96600C35AF2 /* CarDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA31FC4C96600C35AF2 /* CarDetails.m */; };
+		D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA61FC4CA9500C35AF2 /* DataBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D8641E901FC4C16B00C35AF2 /* Excellent ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Excellent ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8641E941FC4C16B00C35AF2 /* Excellent_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Excellent_ProjectUITests.m; sourceTree = "<group>"; };
 		D8641E961FC4C16B00C35AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8641EA21FC4C96600C35AF2 /* CarDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetails.h; sourceTree = "<group>"; };
+		D8641EA31FC4C96600C35AF2 /* CarDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetails.m; sourceTree = "<group>"; };
+		D8641EA51FC4CA9500C35AF2 /* DataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		D8641EA61FC4CA9500C35AF2 /* DataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				D8641E731FC4C16A00C35AF2 /* ViewController.h */,
 				D8641E741FC4C16A00C35AF2 /* ViewController.m */,
 				D8641E761FC4C16A00C35AF2 /* Main.storyboard */,
+				D8641EA21FC4C96600C35AF2 /* CarDetails.h */,
+				D8641EA31FC4C96600C35AF2 /* CarDetails.m */,
+				D8641EA51FC4CA9500C35AF2 /* DataBase.h */,
+				D8641EA61FC4CA9500C35AF2 /* DataBase.m */,
 				D8641E791FC4C16A00C35AF2 /* Assets.xcassets */,
 				D8641E7B1FC4C16A00C35AF2 /* LaunchScreen.storyboard */,
 				D8641E7E1FC4C16A00C35AF2 /* Info.plist */,
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8641E751FC4C16A00C35AF2 /* ViewController.m in Sources */,
+				D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */,
 				D8641E801FC4C16A00C35AF2 /* main.m in Sources */,
 				D8641E721FC4C16A00C35AF2 /* AppDelegate.m in Sources */,
+				D8641EA41FC4C96600C35AF2 /* CarDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
