@@ -17,6 +17,7 @@
 		D8641E951FC4C16B00C35AF2 /* Excellent_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E941FC4C16B00C35AF2 /* Excellent_ProjectUITests.m */; };
 		D8641EA41FC4C96600C35AF2 /* CarDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA31FC4C96600C35AF2 /* CarDetails.m */; };
 		D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA61FC4CA9500C35AF2 /* DataBase.m */; };
+		D8641EAA1FCDC53D00C35AF2 /* PriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D8641EA31FC4C96600C35AF2 /* CarDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetails.m; sourceTree = "<group>"; };
 		D8641EA51FC4CA9500C35AF2 /* DataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
 		D8641EA61FC4CA9500C35AF2 /* DataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		D8641EA81FCDC53D00C35AF2 /* PriceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceViewController.h; sourceTree = "<group>"; };
+		D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				D8641E711FC4C16A00C35AF2 /* AppDelegate.m */,
 				D8641E731FC4C16A00C35AF2 /* ViewController.h */,
 				D8641E741FC4C16A00C35AF2 /* ViewController.m */,
+				D8641EA81FCDC53D00C35AF2 /* PriceViewController.h */,
+				D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */,
 				D8641E761FC4C16A00C35AF2 /* Main.storyboard */,
 				D8641EA21FC4C96600C35AF2 /* CarDetails.h */,
 				D8641EA31FC4C96600C35AF2 /* CarDetails.m */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8641EAA1FCDC53D00C35AF2 /* PriceViewController.m in Sources */,
 				D8641E751FC4C16A00C35AF2 /* ViewController.m in Sources */,
 				D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */,
 				D8641E801FC4C16A00C35AF2 /* main.m in Sources */,

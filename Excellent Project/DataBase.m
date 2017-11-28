@@ -50,9 +50,9 @@ if (self) {
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A03 = [[CarDetails alloc] init];
     A03.Maker = @"pmw";
-    A03.Model = @"";
-    A03.Price = 0;
-    A03.Group = @"";
+    A03.Model = @"X5";
+    A03.Price = 50000;
+    A03.Group = @"Large";
     A03.EngineSize = @"";
     A03.Transmission = @"";
     A03.ChosenIN = 1;
@@ -61,7 +61,7 @@ if (self) {
     CarDetails *A04 = [[CarDetails alloc] init];
     A04.Maker = @"pmw";
     A04.Model = @"X3";
-    A04.Price = 0;
+    A04.Price = 35000;
     A04.Group = @"SUV";
     A04.EngineSize = @"";
     A04.Transmission = @"";
@@ -71,7 +71,7 @@ if (self) {
     CarDetails *A05 = [[CarDetails alloc] init];
     A05.Maker = @"Penz";
     A05.Model = @"";
-    A05.Price = 0;
+    A05.Price = 24000;
     A05.Group = @"";
     A05.EngineSize = @"";
     A05.Transmission = @"";
@@ -81,7 +81,7 @@ if (self) {
     CarDetails *A06 = [[CarDetails alloc] init];
     A06.Maker = @"Penz";
     A06.Model = @"";
-    A06.Price = 0;
+    A06.Price = 42000;
     A06.Group = @"";
     A06.EngineSize = @"";
     A06.Transmission = @"";
@@ -91,7 +91,7 @@ if (self) {
     CarDetails *A07 = [[CarDetails alloc] init];
     A07.Maker = @"Penz";
     A07.Model = @"";
-    A07.Price = 0;
+    A07.Price = 13000;
     A07.Group = @"";
     A07.EngineSize = @"";
     A07.Transmission = @"";
@@ -101,7 +101,7 @@ if (self) {
     CarDetails *A08 = [[CarDetails alloc] init];
     A08.Maker = @"Vudi";
     A08.Model = @"";
-    A08.Price = 0;
+    A08.Price = 18000;
     A08.Group = @"";
     A08.EngineSize = @"";
     A08.Transmission = @"";
@@ -111,7 +111,7 @@ if (self) {
     CarDetails *A09 = [[CarDetails alloc] init];
     A09.Maker = @"Vudi";
     A09.Model = @"";
-    A09.Price = 0;
+    A09.Price = 25000;
     A09.Group = @"";
     A09.EngineSize = @"";
     A09.Transmission = @"";
@@ -121,7 +121,7 @@ if (self) {
     CarDetails *A10 = [[CarDetails alloc] init];
     A10.Maker = @"Vudi";
     A10.Model = @"";
-    A10.Price = 0;
+    A10.Price = 33000;
     A10.Group = @"";
     A10.EngineSize = @"";
     A10.Transmission = @"";
@@ -131,7 +131,7 @@ if (self) {
     CarDetails *A11 = [[CarDetails alloc] init];
     A11.Maker = @"Koyoka";
     A11.Model = @"";
-    A11.Price = 0;
+    A11.Price = 46000;
     A11.Group = @"";
     A11.EngineSize = @"";
     A11.Transmission = @"";

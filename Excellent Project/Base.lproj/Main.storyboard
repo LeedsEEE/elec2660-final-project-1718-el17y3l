@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,14 +20,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s2j-RY-AvK" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s2j-RY-AvK" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="16" y="45" width="343" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Price: no limitation">
+                                        <fragment content="Press to set/change">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="MarkerFelt-Thin"/>
+                                                <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="15" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -34,12 +38,12 @@
                                     <segue destination="alQ-81-q0R" kind="show" id="eSc-pe-Iwp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXE-Oe-z36" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXE-Oe-z36" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="16" y="153" width="343" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Engine size: no limitation">
+                                        <fragment content="Press to set/change">
                                             <attributes>
                                                 <font key="NSFont" size="18" name="MarkerFelt-Thin"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -51,12 +55,12 @@
                                     <segue destination="tKB-IM-LjN" kind="show" id="2dA-ZV-rrT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Frl-aX-bnI" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Frl-aX-bnI" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="16" y="267" width="343" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Group: all">
+                                        <fragment content="Press to set/change">
                                             <attributes>
                                                 <font key="NSFont" size="18" name="MarkerFelt-Thin"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -68,12 +72,12 @@
                                     <segue destination="Yit-Bh-Kks" kind="show" id="icU-Wq-WPe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pU6-oY-j5w" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pU6-oY-j5w" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="16" y="373" width="343" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Transmission: all">
+                                        <fragment content="Press to set/change">
                                             <attributes>
                                                 <font key="NSFont" size="18" name="MarkerFelt-Thin"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -99,11 +103,50 @@
                                     </attributedString>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: no limitation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXI-ck-9Dq">
+                                <rect key="frame" x="117" y="74.5" width="141" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group: all" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpI-5Z-I25">
+                                <rect key="frame" x="150.5" y="311" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transmission: all" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoT-ct-PnK">
+                                <rect key="frame" x="124" y="412" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engine size: no limitation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gza-2U-hOF">
+                                <rect key="frame" x="93" y="195.5" width="189" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HXI-ck-9Dq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3li-3g-c4y"/>
+                            <constraint firstItem="eoT-ct-PnK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9cQ-cq-oCH"/>
+                            <constraint firstItem="Gza-2U-hOF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cmc-49-IVg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BpI-5Z-I25" secondAttribute="bottom" constant="335" id="EFR-1o-u1u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gza-2U-hOF" secondAttribute="bottom" constant="451" id="GA6-AJ-dTa"/>
+                            <constraint firstItem="BpI-5Z-I25" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bu6-Mq-Cpy"/>
+                            <constraint firstItem="eoT-ct-PnK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="cqq-Xj-wfu"/>
+                            <constraint firstItem="HXI-ck-9Dq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="i7p-gt-agK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HXI-ck-9Dq" secondAttribute="bottom" constant="572" id="iNq-TQ-fpa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eoT-ct-PnK" secondAttribute="bottom" constant="234" id="mIP-HI-JlD"/>
+                            <constraint firstItem="Gza-2U-hOF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="vh5-sc-vEV"/>
+                            <constraint firstItem="BpI-5Z-I25" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150.5" id="xfY-6w-fVT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="PriceLabel" destination="HXI-ck-9Dq" id="XkV-6K-52G"/>
                         <outlet property="ShowList" destination="coq-ne-TdO" id="65L-2F-cay"/>
                     </connections>
                 </viewController>
@@ -111,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="-1178.4000000000001" y="541.97901049475263"/>
         </scene>
-        <!--View Controller-->
+        <!--Price View Controller-->
         <scene sceneID="Gyb-ax-DhI">
             <objects>
-                <viewController id="alQ-81-q0R" sceneMemberID="viewController">
+                <viewController id="alQ-81-q0R" customClass="PriceViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VoR-jr-j2t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,17 +175,85 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="PriceDown:" destination="alQ-81-q0R" eventType="touchUpInside" id="yeQ-bD-D9M"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="9jN-TX-A6g"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1a-xx-2zF">
+                                <rect key="frame" x="133" y="35" width="109.5" height="56"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Price">
+                                        <attributes>
+                                            <font key="NSFont" size="48" name="Arial-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="25000" translatesAutoresizingMaskIntoConstraints="NO" id="Ggc-GT-Fil">
+                                <rect key="frame" x="20" y="123" width="335" height="31"/>
+                                <connections>
+                                    <action selector="MinPriceSlider:" destination="alQ-81-q0R" eventType="valueChanged" id="Tfq-JJ-n5B"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4p-XG-ecI">
+                                <rect key="frame" x="105" y="194" width="164" height="28"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Minimum Price:">
+                                        <attributes>
+                                            <font key="NSFont" size="23" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50000" minValue="25000" maxValue="50000" translatesAutoresizingMaskIntoConstraints="NO" id="rLr-ZH-gq0">
+                                <rect key="frame" x="33" y="300" width="309" height="31"/>
+                                <connections>
+                                    <action selector="MaxPriceSlider:" destination="alQ-81-q0R" eventType="valueChanged" id="O6G-Ql-U42"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tq4-sC-QZz">
+                                <rect key="frame" x="111" y="358" width="152.5" height="27.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Maximum Price">
+                                        <attributes>
+                                            <font key="NSFont" size="23" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Tq4-sC-QZz" firstAttribute="centerX" secondItem="swO-68-DNU" secondAttribute="centerX" id="1ZY-SC-qUn"/>
+                            <constraint firstItem="a1a-xx-2zF" firstAttribute="leading" secondItem="swO-68-DNU" secondAttribute="leading" constant="133" id="5UY-sa-QyL"/>
+                            <constraint firstItem="swO-68-DNU" firstAttribute="bottom" secondItem="rLr-ZH-gq0" secondAttribute="bottom" constant="337" id="7UI-K2-GQj"/>
+                            <constraint firstItem="swO-68-DNU" firstAttribute="bottom" secondItem="Ggc-GT-Fil" secondAttribute="bottom" constant="514" id="BLb-ab-Xfx"/>
+                            <constraint firstItem="Ggc-GT-Fil" firstAttribute="leading" secondItem="swO-68-DNU" secondAttribute="leading" constant="22" id="Evu-Ik-Y7h"/>
+                            <constraint firstItem="K4p-XG-ecI" firstAttribute="firstBaseline" secondItem="Ggc-GT-Fil" secondAttribute="baseline" constant="31.5" symbolType="layoutAnchor" id="FR0-39-qvS"/>
+                            <constraint firstItem="swO-68-DNU" firstAttribute="bottom" secondItem="a1a-xx-2zF" secondAttribute="bottom" constant="576" id="SyR-4g-Baz"/>
+                            <constraint firstItem="Ggc-GT-Fil" firstAttribute="centerX" secondItem="swO-68-DNU" secondAttribute="centerX" id="WiY-Hz-uA6"/>
+                            <constraint firstItem="Tq4-sC-QZz" firstAttribute="firstBaseline" secondItem="rLr-ZH-gq0" secondAttribute="baseline" constant="50" id="XFp-Vr-HgI"/>
+                            <constraint firstItem="rLr-ZH-gq0" firstAttribute="centerX" secondItem="swO-68-DNU" secondAttribute="centerX" id="hBP-SN-pdR"/>
+                            <constraint firstItem="a1a-xx-2zF" firstAttribute="centerX" secondItem="swO-68-DNU" secondAttribute="centerX" id="nnp-id-CHF"/>
+                            <constraint firstItem="K4p-XG-ecI" firstAttribute="top" secondItem="Ggc-GT-Fil" secondAttribute="bottom" constant="8" symbolic="YES" id="pRc-dH-FQn"/>
+                            <constraint firstItem="Ggc-GT-Fil" firstAttribute="centerX" secondItem="swO-68-DNU" secondAttribute="centerX" id="r8T-KQ-loe"/>
+                            <constraint firstItem="K4p-XG-ecI" firstAttribute="centerX" secondItem="swO-68-DNU" secondAttribute="centerX" id="v4D-Ug-uTO"/>
+                            <constraint firstItem="rLr-ZH-gq0" firstAttribute="leading" secondItem="swO-68-DNU" secondAttribute="leading" constant="35" id="ywr-HT-fqd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="swO-68-DNU"/>
                     </view>
+                    <connections>
+                        <outlet property="MaxPriceLabel" destination="Tq4-sC-QZz" id="FAO-SJ-QzU"/>
+                        <outlet property="MinPriceLabel" destination="K4p-XG-ecI" id="y7m-vJ-FRs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pGr-sp-7i6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-401" y="-227"/>
+            <point key="canvasLocation" x="-402.39999999999998" y="-227.13643178410797"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5kp-pK-Jnq">
@@ -243,10 +354,10 @@
             </objects>
             <point key="canvasLocation" x="270" y="936"/>
         </scene>
-        <!--View Controller-->
+        <!--Price View Controller-->
         <scene sceneID="KuW-Si-ea9">
             <objects>
-                <viewController id="6Fr-wv-rx6" sceneMemberID="viewController">
+                <viewController id="6Fr-wv-rx6" customClass="PriceViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9WV-nt-7Di">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,6 +375,10 @@
                                     </attributedString>
                                 </state>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yvm-xv-LtL">
+                                <rect key="frame" x="57" y="212" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="9t6-b7-q3r"/>
@@ -275,6 +390,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ahR-Ad-CYR"/>
+        <segue reference="9jN-TX-A6g"/>
     </inferredMetricsTieBreakers>
 </document>
