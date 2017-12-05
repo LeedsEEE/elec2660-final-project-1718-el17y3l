@@ -1,5 +1,5 @@
 //
-//  EngineViewController.h
+//  CarDetailsViewController.h
 //  Excellent Project
 //
 //  Created by 李蕴纯 on 2017/12/5.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EngineViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIPickerView *EnginePicker;
+@interface CarDetailsViewController : UIViewController
 
 @end

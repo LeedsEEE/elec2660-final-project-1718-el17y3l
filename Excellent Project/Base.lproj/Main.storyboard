@@ -98,6 +98,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="00S-f5-dsC" kind="showDetail" id="sRE-rU-j8v"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group: all" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpI-5Z-I25">
                                 <rect key="frame" x="150.5" y="311" width="74" height="21"/>
@@ -373,6 +376,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EGp-Js-W44"/>
                     </view>
+                    <connections>
+                        <outlet property="TransmissionPicker" destination="QPS-eN-XLz" id="r5G-cu-C4E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CP-0W-05h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -428,6 +434,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RCS-2b-rgH"/>
                     </view>
+                    <connections>
+                        <outlet property="EnginePicker" destination="ZSZ-Gh-snn" id="xsS-Yp-2d9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kkf-cW-CQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -467,10 +476,10 @@
             </objects>
             <point key="canvasLocation" x="-401" y="-227"/>
         </scene>
-        <!--Car Detail View Controller-->
+        <!--Car Details View Controller-->
         <scene sceneID="Pn3-CM-0NL">
             <objects>
-                <viewController storyboardIdentifier="CarDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ngo-aP-sgb" customClass="CarDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CarDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ngo-aP-sgb" customClass="CarDetailsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gLS-xs-tZa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -581,10 +590,10 @@
             </objects>
             <point key="canvasLocation" x="-54" y="1940"/>
         </scene>
-        <!--Car List View Controller-->
+        <!--Car List Table View Controller-->
         <scene sceneID="3JH-zU-BCc">
             <objects>
-                <viewController storyboardIdentifier="CarListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="00S-f5-dsC" customClass="CarListViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CarListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="00S-f5-dsC" customClass="CarListTableViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rex-4g-TJI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -616,6 +625,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ngo-aP-sgb" kind="show" id="Nak-DC-fR0"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -654,6 +666,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MSb-Vl-Eii"/>
+        <segue reference="9jN-TX-A6g"/>
     </inferredMetricsTieBreakers>
 </document>

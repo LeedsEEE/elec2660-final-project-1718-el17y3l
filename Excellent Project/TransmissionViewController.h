@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TransmissionViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIPickerView *TransmissionPicker;
 
 @end

@@ -21,6 +21,8 @@
 		D8641EAD1FD7229C00C35AF2 /* EngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EAC1FD7229C00C35AF2 /* EngineViewController.m */; };
 		D8641EB01FD7241100C35AF2 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EAF1FD7241100C35AF2 /* GroupViewController.m */; };
 		D8641EB31FD7247600C35AF2 /* TransmissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EB21FD7247600C35AF2 /* TransmissionViewController.m */; };
+		D8641EB61FD7333000C35AF2 /* CarDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EB51FD7333000C35AF2 /* CarDetailsViewController.m */; };
+		D8641EB91FD733A400C35AF2 /* CarListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EB81FD733A400C35AF2 /* CarListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,10 @@
 		D8641EAF1FD7241100C35AF2 /* GroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 		D8641EB11FD7247600C35AF2 /* TransmissionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransmissionViewController.h; sourceTree = "<group>"; };
 		D8641EB21FD7247600C35AF2 /* TransmissionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransmissionViewController.m; sourceTree = "<group>"; };
+		D8641EB41FD7333000C35AF2 /* CarDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetailsViewController.h; sourceTree = "<group>"; };
+		D8641EB51FD7333000C35AF2 /* CarDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetailsViewController.m; sourceTree = "<group>"; };
+		D8641EB71FD733A400C35AF2 /* CarListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarListTableViewController.h; sourceTree = "<group>"; };
+		D8641EB81FD733A400C35AF2 /* CarListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,15 +129,19 @@
 				D8641E711FC4C16A00C35AF2 /* AppDelegate.m */,
 				D8641E731FC4C16A00C35AF2 /* ViewController.h */,
 				D8641E741FC4C16A00C35AF2 /* ViewController.m */,
-				D8641EAB1FD7229C00C35AF2 /* EngineViewController.h */,
-				D8641EAC1FD7229C00C35AF2 /* EngineViewController.m */,
 				D8641EA81FCDC53D00C35AF2 /* PriceViewController.h */,
 				D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */,
 				D8641EAE1FD7241100C35AF2 /* GroupViewController.h */,
+				D8641EAB1FD7229C00C35AF2 /* EngineViewController.h */,
+				D8641EAC1FD7229C00C35AF2 /* EngineViewController.m */,
 				D8641EAF1FD7241100C35AF2 /* GroupViewController.m */,
 				D8641EB11FD7247600C35AF2 /* TransmissionViewController.h */,
 				D8641EB21FD7247600C35AF2 /* TransmissionViewController.m */,
 				D8641E761FC4C16A00C35AF2 /* Main.storyboard */,
+				D8641EB71FD733A400C35AF2 /* CarListTableViewController.h */,
+				D8641EB81FD733A400C35AF2 /* CarListTableViewController.m */,
+				D8641EB41FD7333000C35AF2 /* CarDetailsViewController.h */,
+				D8641EB51FD7333000C35AF2 /* CarDetailsViewController.m */,
 				D8641EA21FC4C96600C35AF2 /* CarDetails.h */,
 				D8641EA31FC4C96600C35AF2 /* CarDetails.m */,
 				D8641EA51FC4CA9500C35AF2 /* DataBase.h */,
@@ -299,10 +309,12 @@
 				D8641EB31FD7247600C35AF2 /* TransmissionViewController.m in Sources */,
 				D8641E751FC4C16A00C35AF2 /* ViewController.m in Sources */,
 				D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */,
+				D8641EB61FD7333000C35AF2 /* CarDetailsViewController.m in Sources */,
 				D8641EAD1FD7229C00C35AF2 /* EngineViewController.m in Sources */,
 				D8641EB01FD7241100C35AF2 /* GroupViewController.m in Sources */,
 				D8641E801FC4C16A00C35AF2 /* main.m in Sources */,
 				D8641E721FC4C16A00C35AF2 /* AppDelegate.m in Sources */,
+				D8641EB91FD733A400C35AF2 /* CarListTableViewController.m in Sources */,
 				D8641EA41FC4C96600C35AF2 /* CarDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
