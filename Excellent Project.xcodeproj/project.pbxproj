@@ -18,6 +18,9 @@
 		D8641EA41FC4C96600C35AF2 /* CarDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA31FC4C96600C35AF2 /* CarDetails.m */; };
 		D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA61FC4CA9500C35AF2 /* DataBase.m */; };
 		D8641EAA1FCDC53D00C35AF2 /* PriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */; };
+		D8641EAD1FD7229C00C35AF2 /* EngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EAC1FD7229C00C35AF2 /* EngineViewController.m */; };
+		D8641EB01FD7241100C35AF2 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EAF1FD7241100C35AF2 /* GroupViewController.m */; };
+		D8641EB31FD7247600C35AF2 /* TransmissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641EB21FD7247600C35AF2 /* TransmissionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		D8641EA61FC4CA9500C35AF2 /* DataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
 		D8641EA81FCDC53D00C35AF2 /* PriceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceViewController.h; sourceTree = "<group>"; };
 		D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceViewController.m; sourceTree = "<group>"; };
+		D8641EAB1FD7229C00C35AF2 /* EngineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngineViewController.h; sourceTree = "<group>"; };
+		D8641EAC1FD7229C00C35AF2 /* EngineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngineViewController.m; sourceTree = "<group>"; };
+		D8641EAE1FD7241100C35AF2 /* GroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		D8641EAF1FD7241100C35AF2 /* GroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
+		D8641EB11FD7247600C35AF2 /* TransmissionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransmissionViewController.h; sourceTree = "<group>"; };
+		D8641EB21FD7247600C35AF2 /* TransmissionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransmissionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +123,14 @@
 				D8641E711FC4C16A00C35AF2 /* AppDelegate.m */,
 				D8641E731FC4C16A00C35AF2 /* ViewController.h */,
 				D8641E741FC4C16A00C35AF2 /* ViewController.m */,
+				D8641EAB1FD7229C00C35AF2 /* EngineViewController.h */,
+				D8641EAC1FD7229C00C35AF2 /* EngineViewController.m */,
 				D8641EA81FCDC53D00C35AF2 /* PriceViewController.h */,
 				D8641EA91FCDC53D00C35AF2 /* PriceViewController.m */,
+				D8641EAE1FD7241100C35AF2 /* GroupViewController.h */,
+				D8641EAF1FD7241100C35AF2 /* GroupViewController.m */,
+				D8641EB11FD7247600C35AF2 /* TransmissionViewController.h */,
+				D8641EB21FD7247600C35AF2 /* TransmissionViewController.m */,
 				D8641E761FC4C16A00C35AF2 /* Main.storyboard */,
 				D8641EA21FC4C96600C35AF2 /* CarDetails.h */,
 				D8641EA31FC4C96600C35AF2 /* CarDetails.m */,
@@ -281,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8641EAA1FCDC53D00C35AF2 /* PriceViewController.m in Sources */,
+				D8641EB31FD7247600C35AF2 /* TransmissionViewController.m in Sources */,
 				D8641E751FC4C16A00C35AF2 /* ViewController.m in Sources */,
 				D8641EA71FC4CA9500C35AF2 /* DataBase.m in Sources */,
+				D8641EAD1FD7229C00C35AF2 /* EngineViewController.m in Sources */,
+				D8641EB01FD7241100C35AF2 /* GroupViewController.m in Sources */,
 				D8641E801FC4C16A00C35AF2 /* main.m in Sources */,
 				D8641E721FC4C16A00C35AF2 /* AppDelegate.m in Sources */,
 				D8641EA41FC4C96600C35AF2 /* CarDetails.m in Sources */,

@@ -22,9 +22,9 @@ if (self) {
     A00.Maker = @"Lord";
     A00.Model = @"Locus";
     A00.Price = 20000;
-    A00.Group = @"small";
-    A00.EngineSize = @"";
-    A00.Transmission = @"";
+    A00.Group = @"Small";
+    A00.EngineSize = @"1.3L";
+    A00.Transmission = @"Manual";
     A00.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
@@ -32,9 +32,9 @@ if (self) {
     A01.Maker = @"Lord";
     A01.Model = @"Wondeo";
     A01.Price = 25000;
-    A01.Group = @"medium";
-    A01.EngineSize = @"";
-    A01.Transmission = @"";
+    A01.Group = @"Medium";
+    A01.EngineSize = @"1.8L";
+    A01.Transmission = @"Auto";
     A01.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
@@ -42,9 +42,9 @@ if (self) {
     A02.Maker = @"pmw";
     A02.Model = @"mini";
     A02.Price = 10000;
-    A02.Group = @"small";
-    A02.EngineSize = @"";
-    A02.Transmission = @"";
+    A02.Group = @"Small";
+    A02.EngineSize = @"1.5L";
+    A02.Transmission = @"Manual";
     A02.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
@@ -53,8 +53,8 @@ if (self) {
     A03.Model = @"X5";
     A03.Price = 50000;
     A03.Group = @"Large";
-    A03.EngineSize = @"";
-    A03.Transmission = @"";
+    A03.EngineSize = @"4.0L";
+    A03.Transmission = @"Auto";
     A03.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
@@ -63,78 +63,78 @@ if (self) {
     A04.Model = @"X3";
     A04.Price = 35000;
     A04.Group = @"SUV";
-    A04.EngineSize = @"";
-    A04.Transmission = @"";
+    A04.EngineSize = @"2.8L";
+    A04.Transmission = @"Auto";
     A04.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A05 = [[CarDetails alloc] init];
     A05.Maker = @"Penz";
-    A05.Model = @"";
-    A05.Price = 24000;
-    A05.Group = @"";
-    A05.EngineSize = @"";
-    A05.Transmission = @"";
+    A05.Model = @"GLC";
+    A05.Price = 44000;
+    A05.Group = @"SUV";
+    A05.EngineSize = @"3.8L";
+    A05.Transmission = @"Auto";
     A05.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A06 = [[CarDetails alloc] init];
     A06.Maker = @"Penz";
-    A06.Model = @"";
+    A06.Model = @"V-Class";
     A06.Price = 42000;
-    A06.Group = @"";
-    A06.EngineSize = @"";
-    A06.Transmission = @"";
+    A06.Group = @"MPV";
+    A06.EngineSize = @"3.5L";
+    A06.Transmission = @"Auto";
     A06.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A07 = [[CarDetails alloc] init];
     A07.Maker = @"Penz";
-    A07.Model = @"";
-    A07.Price = 13000;
-    A07.Group = @"";
-    A07.EngineSize = @"";
-    A07.Transmission = @"";
+    A07.Model = @"C-Class";
+    A07.Price = 32000;
+    A07.Group = @"Large";
+    A07.EngineSize = @"3.0L";
+    A07.Transmission = @"Auto";
     A07.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A08 = [[CarDetails alloc] init];
     A08.Maker = @"Vudi";
-    A08.Model = @"";
+    A08.Model = @"A2";
     A08.Price = 18000;
-    A08.Group = @"";
-    A08.EngineSize = @"";
-    A08.Transmission = @"";
+    A08.Group = @"Small";
+    A08.EngineSize = @"1.8L";
+    A08.Transmission = @"Manual";
     A08.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A09 = [[CarDetails alloc] init];
     A09.Maker = @"Vudi";
-    A09.Model = @"";
+    A09.Model = @"A4";
     A09.Price = 25000;
-    A09.Group = @"";
-    A09.EngineSize = @"";
-    A09.Transmission = @"";
+    A09.Group = @"Medium";
+    A09.EngineSize = @"2.4L";
+    A09.Transmission = @"Auto";
     A09.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A10 = [[CarDetails alloc] init];
     A10.Maker = @"Vudi";
-    A10.Model = @"";
+    A10.Model = @"A6";
     A10.Price = 33000;
-    A10.Group = @"";
-    A10.EngineSize = @"";
-    A10.Transmission = @"";
+    A10.Group = @"Large";
+    A10.EngineSize = @"3.0L";
+    A10.Transmission = @"Auto";
     A10.ChosenIN = 1;
     
     self.DetailsOfCars = [NSMutableArray array];
     CarDetails *A11 = [[CarDetails alloc] init];
     A11.Maker = @"Koyoka";
-    A11.Model = @"";
-    A11.Price = 46000;
-    A11.Group = @"";
-    A11.EngineSize = @"";
-    A11.Transmission = @"";
+    A11.Model = @"XXa";
+    A11.Price = 16000;
+    A11.Group = @"MPV";
+    A11.EngineSize = @"1.9L";
+    A11.Transmission = @"Manual";
     A11.ChosenIN = 1;
     
 }

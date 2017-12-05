@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PriceViewController.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)PriceDown:(UIButton *)sender {
+   
+    _PriceLabel.text = [NSString stringWithFormat:@"Price: %0.0f - %0.0f (£)", 
+    
+}
+
+
 
 
 @end

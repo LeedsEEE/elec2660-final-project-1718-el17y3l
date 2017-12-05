@@ -1,19 +1,18 @@
 //
-//  PriceViewController.m
+//  GroupViewController.m
 //  Excellent Project
 //
-//  Created by 李蕴纯 on 2017/11/28.
+//  Created by 李蕴纯 on 2017/12/5.
 //  Copyright © 2017年 el17y3l. All rights reserved.
 //
 
-#import "PriceViewController.h"
-#import "ViewController.h"
+#import "GroupViewController.h"
 
-@interface PriceViewController ()
+@interface GroupViewController ()
 
 @end
 
-@implementation PriceViewController
+@implementation GroupViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,22 +34,4 @@
 }
 */
 
-- (IBAction)MinPriceSlider:(UISlider *)sender {
-    
-    _MinPrice = sender.value;
-    
-    self.MinPriceLabel.text = [NSString stringWithFormat:@"Minimum Price: %0.0f (£)", sender.value];
-    
-}
-
-- (IBAction)MaxPriceSlider:(UISlider *)sender {
-    
-    _MaxPrice = sender.value;
-    
-    self.MaxPriceLabel.text = [NSString stringWithFormat:@"Maximum Price: %0.0f (£)", sender.value];
-    
-}
-
-- (IBAction)PriceDown:(UIButton *)sender {
-    }
 @end
