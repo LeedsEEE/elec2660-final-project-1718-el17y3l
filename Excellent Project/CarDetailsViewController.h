@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CarDetailsViewController : UIViewController
+@class CarDetails;
+@interface CarDetailViewController : UIViewController
+
+@property (nonatomic,strong) CarDetails *carModel;
 
 @end

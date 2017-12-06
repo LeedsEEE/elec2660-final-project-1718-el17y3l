@@ -7,31 +7,46 @@
 //
 
 #import "CarDetailsViewController.h"
-
-@interface CarDetailsViewController ()
+#import "CarDetails.h"
+@interface CarDetailViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *MakerModelLabel;
+@property (weak, nonatomic) IBOutlet UIButton *priceButton;
+@property (weak, nonatomic) IBOutlet UIButton *engineSizeButton;
+@property (weak, nonatomic) IBOutlet UIButton *groupButton;
+@property (weak, nonatomic) IBOutlet UIButton *transmissionButton;
 
 @end
 
-@implementation CarDetailsViewController
+@implementation CarDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.MakerModelLabel.text = [NSString stringWithFormat:@"%@  %@",self.carModel.Maker,self.carModel.Model];
+    [self.priceButton setTitle:[NSString stringWithFormat:@"%ld",self.carModel.Price] forState:(UIControlStateNormal)];
+    [self.engineSizeButton setTitle:[NSString stringWithFormat:@"%.1fL",self.carModel.EngineSize] forState:(UIControlStateNormal)];
+    [self.groupButton setTitle:self.carModel.Group forState:(UIControlStateNormal)];
+    [self.transmissionButton setTitle:self.carModel.Transmission forState:(UIControlStateNormal)];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)backDownAction:(UIButton *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
+

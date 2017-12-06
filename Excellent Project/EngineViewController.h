@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface EngineViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIPickerView *EnginePicker;
+@property (nonatomic,copy) void(^retdBlcok)(NSInteger engineSize);
 
 @end
+

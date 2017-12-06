@@ -10,9 +10,6 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *PriceLabel;
-
-@property (weak, nonatomic) IBOutlet UIButton *ShowList;
 
 @end
 

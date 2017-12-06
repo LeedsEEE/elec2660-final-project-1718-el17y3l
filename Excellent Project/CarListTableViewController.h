@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CarListTableViewController : UITableViewController
+@interface CarListTableViewController : UIViewController
+
+@property (nonatomic,assign) CGFloat maxPrice;
+@property (nonatomic,assign) CGFloat minPrice;
+@property (nonatomic,assign) NSInteger engineSize;
+@property (nonatomic,copy)   NSString  *group;
+@property (nonatomic,copy)   NSString  *transmission;
 
 @end

@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GroupViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIPickerView *Grouppicker;
-
-
+@property (nonatomic,copy) void(^retdBlcok)(NSString *group);
 
 @end
