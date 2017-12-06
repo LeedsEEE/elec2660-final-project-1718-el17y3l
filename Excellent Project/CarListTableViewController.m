@@ -25,6 +25,8 @@
     [self seletedCar];
 }
 
+
+// Method for selecting the car. The car that fit the limitation will be put into the array 
 - (void)seletedCar{
     DataBase *data = [[DataBase alloc] init];
     NSMutableArray *ChosenINArray = [NSMutableArray array];
@@ -44,7 +46,7 @@
         [priceArray addObjectsFromArray:ChosenINArray];
     }
     NSMutableArray *engineSizeCarArray = [NSMutableArray array];
-    if (self.maxPrice != 0) {
+    if (self.engineSize != 0) {
         for (CarDetails *car in priceArray) {
             switch (self.engineSize) {
                 case 0:
@@ -132,9 +134,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method in lab3
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataArray.count;
 }
+
+//Method in lab3
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CarDetails *car = self.dataArray[indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
@@ -142,6 +148,8 @@
     cell.detailTextLabel.text = car.Model;
     return cell;
 }
+
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     CarDetailViewController *vc = [sb instantiateViewControllerWithIdentifier:@"CarDetailsViewController"];

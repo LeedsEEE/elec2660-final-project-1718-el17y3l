@@ -24,7 +24,6 @@ static CGFloat coefficient = 100000;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //    self.maxImumLabel = @"100000"
     self.maxPrice = 0.5 * coefficient;
     self.minPrice = 0.5 * self.maxPrice;
     self.maxImumLabel.text = [NSString stringWithFormat:@"%.0f",self.maxPrice];
@@ -35,16 +34,21 @@ static CGFloat coefficient = 100000;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method of the sliders
 - (IBAction)maxSliderAction:(UISlider *)sender {
     self.maxPrice = sender.value * coefficient;
     self.maxImumLabel.text = [NSString stringWithFormat:@"%.0f",self.maxPrice];
     self.minPrice = self.minSlider.value * self.maxPrice;
     self.minimumLabel.text = [NSString stringWithFormat:@"%.0f",self.minPrice];
 }
+
 - (IBAction)minSliderAction:(UISlider *)sender {
     self.minPrice = sender.value * self.maxPrice;
     self.minimumLabel.text = [NSString stringWithFormat:@"%.0f",self.minPrice];
 }
+
+//Method of returning the price to the viewcontroller
 - (IBAction)backDownAction:(UIButton *)sender {
     if (self.retdBlcok) {
         self.retdBlcok(self.maxPrice, self.minPrice);

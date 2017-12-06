@@ -30,6 +30,7 @@
     [self.view addSubview:self.pickerView];
 }
 
+//Method of returning the group
 - (IBAction)backDownAction:(UIButton *)sender {
     if (self.retdBlcok) {
         self.retdBlcok(self.groupButton.titleLabel.text);
@@ -38,7 +39,7 @@
     
 }
 
-
+//Method of the picker
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     [self.groupButton setTitle:self.dataArray[row] forState:(UIControlStateNormal)];
     [self.pickerView removeFromSuperview];

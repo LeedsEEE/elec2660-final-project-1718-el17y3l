@@ -20,7 +20,7 @@
 @property (nonatomic, strong) NSString *Maker;
 @property (nonatomic, strong) NSString *Model;
 
-//The variable below will be used as a boolean interger witch will be 0 and 1 only
+//The variable below will be used as a kind of boolean interger witch will be 0 and 1 only
 //When ChosenIN = 1 the car will be chosen else (ChosenIN = 0) the car won't be chosen
 @property NSInteger ChosenIN;
 

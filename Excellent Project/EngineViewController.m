@@ -30,6 +30,8 @@
 - (IBAction)engineSizeSeletedButtonAction:(UIButton *)sender {
     [self.view addSubview:self.pickerView];
 }
+
+//Method of returning the enginesize
 - (IBAction)backDownAction:(UIButton *)sender {
     if (self.retdBlcok) {
         self.retdBlcok(self.engineSize);
@@ -37,6 +39,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+//Method of the picker
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     [self.engineSizeButton setTitle:self.dataArray[row] forState:(UIControlStateNormal)];
     self.engineSize = row;

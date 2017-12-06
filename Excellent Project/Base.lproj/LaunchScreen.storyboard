@@ -1,54 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7wH-WX-668">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="4fg-we-yaS">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                <viewController id="7wH-WX-668" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kvd-6D-TUg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Car Finder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0n-MG-QqD">
-                                <rect key="frame" x="28" y="15.5" width="318" height="87.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="73"/>
-                                <color key="textColor" red="0.54321104288101196" green="0.083707310259342194" blue="0.50615614652633667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Car finder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPX-zf-qen">
+                                <rect key="frame" x="116" y="152" width="144" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="0.76500801939999996" green="0.38173540779999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8q-Mb-C8a">
-                                <rect key="frame" x="69" y="486" width="236" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Set your limitation first!">
-                                        <attributes>
-                                            <font key="NSFont" size="23" name="Impact"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set your" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUZ-ji-1ba">
+                                <rect key="frame" x="155.5" y="571" width="64" height="20"/>
+                                <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="limitation firtst!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBG-4D-Zyi">
+                                <rect key="frame" x="130" y="596" width="115" height="21"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y0n-MG-QqD" secondAttribute="bottom" constant="564" id="SEl-vq-KPG"/>
-                            <constraint firstItem="Y0n-MG-QqD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="Vid-f2-cAu"/>
-                            <constraint firstItem="Y0n-MG-QqD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zs7-Nr-rXz"/>
+                            <constraint firstItem="PPX-zf-qen" firstAttribute="centerY" secondItem="Ywa-8Y-OnK" secondAttribute="centerY" multiplier="1:2" id="49L-8R-Zp5"/>
+                            <constraint firstItem="PPX-zf-qen" firstAttribute="centerX" secondItem="Ywa-8Y-OnK" secondAttribute="centerX" id="87B-rs-yo9"/>
+                            <constraint firstItem="aUZ-ji-1ba" firstAttribute="centerX" secondItem="Ywa-8Y-OnK" secondAttribute="centerX" id="P7d-t2-BbE"/>
+                            <constraint firstItem="Ywa-8Y-OnK" firstAttribute="bottom" secondItem="FBG-4D-Zyi" secondAttribute="bottom" constant="50" id="dfp-4l-gYf"/>
+                            <constraint firstItem="FBG-4D-Zyi" firstAttribute="centerX" secondItem="aUZ-ji-1ba" secondAttribute="centerX" id="eSX-2D-Xsd"/>
+                            <constraint firstItem="FBG-4D-Zyi" firstAttribute="top" secondItem="aUZ-ji-1ba" secondAttribute="bottom" constant="5" id="sgO-OZ-oA3"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="Ywa-8Y-OnK"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRs-Yk-AQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="-338" y="317"/>
         </scene>
     </scenes>
 </document>

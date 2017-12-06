@@ -24,6 +24,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method of returning the transmission
 - (IBAction)backDownAction:(UIButton *)sender {
     if (self.retdBlcok) {
         self.retdBlcok(self.transmsissionLabel.text);
@@ -31,6 +33,8 @@
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
+
+//Method of the buttons
 - (IBAction)transmissionAction:(UIButton *)sender {
     self.transmsissionLabel.text = sender.titleLabel.text;
 }

@@ -41,16 +41,23 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method of showing the returned set price
 - (IBAction)priceButtonAction:(UIButton *)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     PriceViewController *vc = [sb instantiateViewControllerWithIdentifier:@"PriceViewController"];
     [self presentViewController:vc animated:YES completion:nil];
+    
+    //Use the method of block to get data from different files(viewcontrollers)
+    //Learnt from https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html
     vc.retdBlcok = ^(CGFloat maxPrice, CGFloat mimPrice) {
         self.maxPrice = maxPrice;
         self.minPrice = mimPrice;
         [sender setTitle:[NSString stringWithFormat:@"%.0f-%.0f",mimPrice,maxPrice] forState:(UIControlStateNormal)];
     };
 }
+
+//Method of showning the engine size. Similar to price part
 - (IBAction)engineSizeButtonAction:(UIButton *)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     EngineViewController *vc = [sb instantiateViewControllerWithIdentifier:@"EngineViewController"];
@@ -60,6 +67,8 @@
         [sender setTitle:[NSString stringWithFormat:@"%@",self.dataArray[engineSize]] forState:(UIControlStateNormal)];
     };
 }
+
+//Method of shoeing the group. Similar to price part
 - (IBAction)groupButtonAction:(UIButton *)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     GroupViewController *vc = [sb instantiateViewControllerWithIdentifier:@"GroupViewController"];
@@ -70,6 +79,8 @@
         
     };
 }
+
+//Method of showing the transmission. Similar to price part
 - (IBAction)TransmissionButtonAction:(UIButton *)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     TransmissionViewController *vc = [sb instantiateViewControllerWithIdentifier:@"TransmissionViewController"];
@@ -80,6 +91,7 @@
     };
 }
 
+//Method of showing the carlist by the button 'show'
 - (IBAction)showButtonAction:(UIButton *)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     CarListTableViewController *vc = [sb instantiateViewControllerWithIdentifier:@"CarListTableViewController"];
@@ -91,6 +103,8 @@
     
     [self presentViewController:vc animated:YES completion:nil];
 }
+
+//The enginesize array
 - (NSArray *)dataArray{
     if (!_dataArray) {
         _dataArray = @[@"less than 1.0L",@"1.1-1.6L",@"1.7-2.0L",@"2.1-2.5L",@"2.6-3.0L",@"3.1-4.0L",@"more than 4.0L"];

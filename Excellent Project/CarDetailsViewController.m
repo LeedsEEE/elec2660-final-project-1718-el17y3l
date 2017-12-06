@@ -19,6 +19,7 @@
 
 @implementation CarDetailViewController
 
+//Method of showing the details of a chosen car
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
