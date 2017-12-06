@@ -9,6 +9,7 @@
 #import "TransmissionViewController.h"
 
 @interface TransmissionViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *transmsissionLabel;
 
 @end
 
@@ -23,15 +24,28 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)backDownAction:(UIButton *)sender {
+    if (self.retdBlcok) {
+        self.retdBlcok(self.transmsissionLabel.text);
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
+- (IBAction)transmissionAction:(UIButton *)sender {
+    self.transmsissionLabel.text = sender.titleLabel.text;
+}
 
 /*
-#pragma mark - Navigation
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+@end
+
 
 @end
