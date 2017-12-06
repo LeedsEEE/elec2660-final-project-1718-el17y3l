@@ -10,23 +10,13 @@
 
 @interface PriceViewController : UIViewController
 
-
-@property (weak, nonatomic) IBOutlet UILabel *MinPriceLabel;
-@property (weak, nonatomic) IBOutlet UILabel *MaxPriceLabel;
-
-
-- (IBAction)MinPriceSlider:(UISlider *)sender;
-- (IBAction)MaxPriceSlider:(UISlider *)sender;
-
-- (IBAction)PriceDown:(UIButton *)sender;
-
-@property float MaxPrice;
-@property float MinPrice;
-
-
-
-
-
-
+@property (nonatomic,copy) void(^retdBlcok)(CGFloat maxPrice,CGFloat mimPrice);
 
 @end
+
+
+
+
+
+
+
