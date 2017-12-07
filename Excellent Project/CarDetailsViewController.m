@@ -24,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.MakerModelLabel.text = [NSString stringWithFormat:@"%@  %@",self.carModel.Maker,self.carModel.Model];
-    [self.priceButton setTitle:[NSString stringWithFormat:@"%ld",self.carModel.Price] forState:(UIControlStateNormal)];
+    [self.priceButton setTitle:[NSString stringWithFormat:@"%ld",(long)self.carModel.Price] forState:(UIControlStateNormal)];
     [self.engineSizeButton setTitle:[NSString stringWithFormat:@"%.1fL",self.carModel.EngineSize] forState:(UIControlStateNormal)];
     [self.groupButton setTitle:self.carModel.Group forState:(UIControlStateNormal)];
     [self.transmissionButton setTitle:self.carModel.Transmission forState:(UIControlStateNormal)];
