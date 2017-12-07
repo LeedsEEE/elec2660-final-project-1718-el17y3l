@@ -14,6 +14,7 @@
 		047D8DD01FD8D8FC0009F362 /* back5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC81FD8D5210009F362 /* back5.jpg */; };
 		047D8DD11FD8D8FC0009F362 /* back6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC91FD8D5210009F362 /* back6.jpg */; };
 		047D8DD21FD8D8FC0009F362 /* backfortable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DCA1FD8D5210009F362 /* backfortable.jpg */; };
+		D85C9D611FD98096002BE1F2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D85C9D601FD98096002BE1F2 /* icon.png */; };
 		D8641E721FC4C16A00C35AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E711FC4C16A00C35AF2 /* AppDelegate.m */; };
 		D8641E751FC4C16A00C35AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E741FC4C16A00C35AF2 /* ViewController.m */; };
 		D8641E781FC4C16A00C35AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8641E761FC4C16A00C35AF2 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		047D8DC91FD8D5210009F362 /* back6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back6.jpg; sourceTree = "<group>"; };
 		047D8DCA1FD8D5210009F362 /* backfortable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backfortable.jpg; sourceTree = "<group>"; };
 		047D8DCB1FD8D5210009F362 /* 新建文本文档.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "新建文本文档.txt"; sourceTree = "<group>"; };
+		D85C9D601FD98096002BE1F2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/icon.png; sourceTree = "<group>"; };
 		D8641E6D1FC4C16A00C35AF2 /* Excellent Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Excellent Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8641E701FC4C16A00C35AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8641E711FC4C16A00C35AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				D8641EA31FC4C96600C35AF2 /* CarDetails.m */,
 				D8641EA51FC4CA9500C35AF2 /* DataBase.h */,
 				D8641EA61FC4CA9500C35AF2 /* DataBase.m */,
+				D85C9D601FD98096002BE1F2 /* icon.png */,
 				047D8DC31FD8D5210009F362 /* background pic */,
 				D8641E791FC4C16A00C35AF2 /* Assets.xcassets */,
 				D8641E7B1FC4C16A00C35AF2 /* LaunchScreen.storyboard */,
@@ -315,6 +318,7 @@
 				047D8DCF1FD8D8FC0009F362 /* back4.jpg in Resources */,
 				D8641E7A1FC4C16A00C35AF2 /* Assets.xcassets in Resources */,
 				047D8DCC1FD8D8F20009F362 /* back1.jpg in Resources */,
+				D85C9D611FD98096002BE1F2 /* icon.png in Resources */,
 				D8641E781FC4C16A00C35AF2 /* Main.storyboard in Resources */,
 				047D8DD21FD8D8FC0009F362 /* backfortable.jpg in Resources */,
 				047D8DD01FD8D8FC0009F362 /* back5.jpg in Resources */,

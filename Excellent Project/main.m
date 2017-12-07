@@ -14,3 +14,6 @@ int main(int argc, char * argv[]) {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+
+
+//Icon picture from: https://www.iconexperience.com/i_collection/icons/?icon=car_sedan
