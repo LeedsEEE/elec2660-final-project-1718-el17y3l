@@ -19,7 +19,7 @@
 
 @implementation CarDetailViewController
 
-//Method of showing the details of a chosen car
+//Method of showing the details of a chosen car from the list
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -34,10 +34,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method of the button 'Down'. Plays the role of a navigation controller
 - (IBAction)backDownAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
+
+//Background picture from:https://www.pinterest.co.uk/eMedevs/car-wallpapers/
+
 
 /*
  #pragma mark - Navigation

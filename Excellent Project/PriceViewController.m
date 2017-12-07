@@ -35,7 +35,7 @@ static CGFloat coefficient = 100000;
     // Dispose of any resources that can be recreated.
 }
 
-//Method of the sliders
+//Methods of the sliders
 - (IBAction)maxSliderAction:(UISlider *)sender {
     self.maxPrice = sender.value * coefficient;
     self.maxImumLabel.text = [NSString stringWithFormat:@"%.0f",self.maxPrice];
@@ -48,6 +48,7 @@ static CGFloat coefficient = 100000;
     self.minimumLabel.text = [NSString stringWithFormat:@"%.0f",self.minPrice];
 }
 
+
 //Method of returning the price to the viewcontroller
 - (IBAction)backDownAction:(UIButton *)sender {
     if (self.retdBlcok) {
@@ -55,6 +56,8 @@ static CGFloat coefficient = 100000;
     }
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+//Background picture from:https://www.pinterest.co.uk/eMedevs/car-wallpapers/
 
 /*
  #pragma mark - Navigation

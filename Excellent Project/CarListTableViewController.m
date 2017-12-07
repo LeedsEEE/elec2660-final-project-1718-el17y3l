@@ -46,7 +46,7 @@
         [priceArray addObjectsFromArray:ChosenINArray];
     }
     NSMutableArray *engineSizeCarArray = [NSMutableArray array];
-    if (self.engineSize != 0) {
+    if (self.engineSize != -1) {
         for (CarDetails *car in priceArray) {
             switch (self.engineSize) {
                 case 0:
@@ -135,12 +135,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-//Method in lab3
+//Method of retuening the nember of section. Taught in lab3
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataArray.count;
 }
 
-//Method in lab3
+//Method of configuring the cell. Taught in lab3
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CarDetails *car = self.dataArray[indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
@@ -149,33 +149,31 @@
     return cell;
 }
 
-
+//Method of configuring the cell. Taught in lab3
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    CarDetailViewController *vc = [sb instantiateViewControllerWithIdentifier:@"CarDetailsViewController"];
+    CarDetailViewController *vc = [sb instantiateViewControllerWithIdentifier:@"CarDetailViewController"];
     vc.carModel = self.dataArray[indexPath.row];
     [self presentViewController:vc animated:YES completion:nil];
     
 }
 
 
-
+//Method of the button 'Down'. Plays the role of a navigation controller
 - (IBAction)backDownAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-//- (NSArray *)engineSizeArray{
-//    if (!_engineSizeArray) {
-//        _engineSizeArray = @[@"less than 1.0L",@"1.1-1.6L",@"1.7-2.0L",@"2.1-2.5L",@"2.6-3.0L",@"3.1-4.0L",@"more than 4.0L"];
-//    }
-//    return _engineSizeArray;
-//}
+//Configuring the dataarray
 - (NSArray *)dataArray{
     if (!_dataArray) {
         _dataArray = [NSArray array];
     }
     return _dataArray;
 }
+
+//Background picture from: http://wallpaperluna.com/ios-11-wallpapers-background/
+
 /*
  #pragma mark - Navigation
  

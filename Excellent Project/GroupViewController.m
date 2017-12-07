@@ -26,6 +26,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method of the button that shows the picker
 - (IBAction)groupSeletedAction:(UIButton *)sender {
     [self.view addSubview:self.pickerView];
 }
@@ -39,7 +41,7 @@
     
 }
 
-//Method of the picker
+//Methods of the picker
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     [self.groupButton setTitle:self.dataArray[row] forState:(UIControlStateNormal)];
     [self.pickerView removeFromSuperview];
@@ -53,8 +55,6 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
     return self.dataArray[row];
 }
-
-
 - (UIPickerView *)pickerView{
     if (!_pickerView) {
         _pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
@@ -65,6 +65,8 @@
     }
     return _pickerView;
 }
+
+//Configuring the array of the picker
 - (NSArray *)dataArray{
     if (!_dataArray) {
         _dataArray = @[@"Small",@"Medium",@"Large",@"MPV",@"SUV"];
@@ -72,6 +74,8 @@
     return _dataArray;
 }
 
+
+//Background picture from:https://www.pinterest.co.uk/eMedevs/car-wallpapers/
 
 /*
  #pragma mark - Navigation

@@ -34,10 +34,12 @@
     
 }
 
-//Method of the buttons
+//Method of the buttons to choose the transmission
 - (IBAction)transmissionAction:(UIButton *)sender {
     self.transmsissionLabel.text = sender.titleLabel.text;
 }
+
+//Background picture from:https://www.pinterest.co.uk/eMedevs/car-wallpapers/
 
 /*
  #pragma mark - Navigation

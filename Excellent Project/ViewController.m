@@ -31,7 +31,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.maxPrice = 0;
     self.minPrice = 0;
-    self.engineSize = 0;
+    self.engineSize = -1;
     self.group = nil;
     self.transmission = nil;
 }
@@ -40,10 +40,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 //Method of showing the returned set price
 - (IBAction)priceButtonAction:(UIButton *)sender {
+    
+    //Use the code to deal with the viewcontroller
+    //Learnt from https://developer.apple.com/documentation/appkit/nsstoryboard?language=objc
+    //Learnt from https://developer.apple.com/documentation/uikit/uistoryboard?language=objc
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     PriceViewController *vc = [sb instantiateViewControllerWithIdentifier:@"PriceViewController"];
     [self presentViewController:vc animated:YES completion:nil];
@@ -111,6 +116,8 @@
     }
     return _dataArray;
 }
+
+//Background picture from:https://www.pinterest.co.uk/eMedevs/car-wallpapers/
 
 
 @end

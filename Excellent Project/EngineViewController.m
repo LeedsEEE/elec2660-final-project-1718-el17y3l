@@ -27,6 +27,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//Method of the button to show the picker
 - (IBAction)engineSizeSeletedButtonAction:(UIButton *)sender {
     [self.view addSubview:self.pickerView];
 }
@@ -39,7 +41,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-//Method of the picker
+//Methods of the picker
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     [self.engineSizeButton setTitle:self.dataArray[row] forState:(UIControlStateNormal)];
     self.engineSize = row;
@@ -54,8 +56,6 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
     return self.dataArray[row];
 }
-
-
 - (UIPickerView *)pickerView{
     if (!_pickerView) {
         _pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
@@ -66,12 +66,19 @@
     }
     return _pickerView;
 }
+
+//Configuring the array of the picker
 - (NSArray *)dataArray{
     if (!_dataArray) {
         _dataArray = @[@"less than 1.0L",@"1.1-1.6L",@"1.7-2.0L",@"2.1-2.5L",@"2.6-3.0L",@"3.1-4.0L",@"more than 4.0"];
     }
     return _dataArray;
 }
+
+
+//Background picture from:https://www.pinterest.co.uk/eMedevs/car-wallpapers/
+
+
 /*
  #pragma mark - Navigation
  

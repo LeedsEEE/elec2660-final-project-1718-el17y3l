@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047D8DCC1FD8D8F20009F362 /* back1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC41FD8D5210009F362 /* back1.jpg */; };
+		047D8DCD1FD8D8F70009F362 /* back2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC51FD8D5210009F362 /* back2.jpg */; };
+		047D8DCE1FD8D8FC0009F362 /* back3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC61FD8D5210009F362 /* back3.jpg */; };
+		047D8DCF1FD8D8FC0009F362 /* back4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC71FD8D5210009F362 /* back4.jpg */; };
+		047D8DD01FD8D8FC0009F362 /* back5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC81FD8D5210009F362 /* back5.jpg */; };
+		047D8DD11FD8D8FC0009F362 /* back6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DC91FD8D5210009F362 /* back6.jpg */; };
+		047D8DD21FD8D8FC0009F362 /* backfortable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D8DCA1FD8D5210009F362 /* backfortable.jpg */; };
 		D8641E721FC4C16A00C35AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E711FC4C16A00C35AF2 /* AppDelegate.m */; };
 		D8641E751FC4C16A00C35AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8641E741FC4C16A00C35AF2 /* ViewController.m */; };
 		D8641E781FC4C16A00C35AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8641E761FC4C16A00C35AF2 /* Main.storyboard */; };
@@ -43,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047D8DC41FD8D5210009F362 /* back1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back1.jpg; sourceTree = "<group>"; };
+		047D8DC51FD8D5210009F362 /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back2.jpg; sourceTree = "<group>"; };
+		047D8DC61FD8D5210009F362 /* back3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back3.jpg; sourceTree = "<group>"; };
+		047D8DC71FD8D5210009F362 /* back4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back4.jpg; sourceTree = "<group>"; };
+		047D8DC81FD8D5210009F362 /* back5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back5.jpg; sourceTree = "<group>"; };
+		047D8DC91FD8D5210009F362 /* back6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back6.jpg; sourceTree = "<group>"; };
+		047D8DCA1FD8D5210009F362 /* backfortable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backfortable.jpg; sourceTree = "<group>"; };
+		047D8DCB1FD8D5210009F362 /* 新建文本文档.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "新建文本文档.txt"; sourceTree = "<group>"; };
 		D8641E6D1FC4C16A00C35AF2 /* Excellent Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Excellent Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8641E701FC4C16A00C35AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8641E711FC4C16A00C35AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +117,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047D8DC31FD8D5210009F362 /* background pic */ = {
+			isa = PBXGroup;
+			children = (
+				047D8DC41FD8D5210009F362 /* back1.jpg */,
+				047D8DC51FD8D5210009F362 /* back2.jpg */,
+				047D8DC61FD8D5210009F362 /* back3.jpg */,
+				047D8DC71FD8D5210009F362 /* back4.jpg */,
+				047D8DC81FD8D5210009F362 /* back5.jpg */,
+				047D8DC91FD8D5210009F362 /* back6.jpg */,
+				047D8DCA1FD8D5210009F362 /* backfortable.jpg */,
+				047D8DCB1FD8D5210009F362 /* 新建文本文档.txt */,
+			);
+			path = "background pic";
+			sourceTree = SOURCE_ROOT;
+		};
 		D8641E641FC4C16A00C35AF2 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +176,7 @@
 				D8641EA31FC4C96600C35AF2 /* CarDetails.m */,
 				D8641EA51FC4CA9500C35AF2 /* DataBase.h */,
 				D8641EA61FC4CA9500C35AF2 /* DataBase.m */,
+				047D8DC31FD8D5210009F362 /* background pic */,
 				D8641E791FC4C16A00C35AF2 /* Assets.xcassets */,
 				D8641E7B1FC4C16A00C35AF2 /* LaunchScreen.storyboard */,
 				D8641E7E1FC4C16A00C35AF2 /* Info.plist */,
@@ -278,9 +309,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D8DD11FD8D8FC0009F362 /* back6.jpg in Resources */,
+				047D8DCE1FD8D8FC0009F362 /* back3.jpg in Resources */,
 				D8641E7D1FC4C16A00C35AF2 /* LaunchScreen.storyboard in Resources */,
+				047D8DCF1FD8D8FC0009F362 /* back4.jpg in Resources */,
 				D8641E7A1FC4C16A00C35AF2 /* Assets.xcassets in Resources */,
+				047D8DCC1FD8D8F20009F362 /* back1.jpg in Resources */,
 				D8641E781FC4C16A00C35AF2 /* Main.storyboard in Resources */,
+				047D8DD21FD8D8FC0009F362 /* backfortable.jpg in Resources */,
+				047D8DD01FD8D8FC0009F362 /* back5.jpg in Resources */,
+				047D8DCD1FD8D8F70009F362 /* back2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Excellent Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Excellent-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,6 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Excellent Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Excellent-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
