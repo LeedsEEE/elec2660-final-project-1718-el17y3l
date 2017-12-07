@@ -25,7 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-//Method of returning the transmission
+//Method of returning the transmission.
 - (IBAction)backDownAction:(UIButton *)sender {
     if (self.retdBlcok) {
         self.retdBlcok(self.transmsissionLabel.text);

@@ -11,7 +11,7 @@
 
 @interface DataBase : NSObject
 
-//The code in lab3 is used here to creat an array for all the details.
+//The code in lab3 is used here to creat an array for all the details
 @property (nonatomic, strong) NSMutableArray *DetailsOfCars;
 
 

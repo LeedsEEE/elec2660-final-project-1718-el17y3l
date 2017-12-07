@@ -10,7 +10,7 @@
 
 @implementation DataBase
 
-//I used the way in lab3 to creat the whole database
+//I used the way in lab3 to creat the whole database.
 //All the details of the cars is made up by myself. Not the real details in this world
 
 -(instancetype)init

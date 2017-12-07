@@ -35,7 +35,7 @@ static CGFloat coefficient = 100000;
     // Dispose of any resources that can be recreated.
 }
 
-//Methods of the sliders
+//Methods of the sliders.
 - (IBAction)maxSliderAction:(UISlider *)sender {
     self.maxPrice = sender.value * coefficient;
     self.maxImumLabel.text = [NSString stringWithFormat:@"%.0f",self.maxPrice];

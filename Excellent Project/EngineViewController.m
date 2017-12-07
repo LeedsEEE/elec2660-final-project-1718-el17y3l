@@ -67,7 +67,7 @@
     return _pickerView;
 }
 
-//Configuring the array of the picker
+//Configuring the array of the picker.
 - (NSArray *)dataArray{
     if (!_dataArray) {
         _dataArray = @[@"less than 1.0L",@"1.1-1.6L",@"1.7-2.0L",@"2.1-2.5L",@"2.6-3.0L",@"3.1-4.0L",@"more than 4.0"];

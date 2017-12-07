@@ -85,7 +85,7 @@
     };
 }
 
-//Method of showing the transmission. Similar to price part
+//Method of showing the transmission. Similar to price part.
 - (IBAction)TransmissionButtonAction:(UIButton *)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     TransmissionViewController *vc = [sb instantiateViewControllerWithIdentifier:@"TransmissionViewController"];

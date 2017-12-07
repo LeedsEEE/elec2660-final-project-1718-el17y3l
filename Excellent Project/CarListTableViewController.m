@@ -159,7 +159,7 @@
 }
 
 
-//Method of the button 'Down'. Plays the role of a navigation controller
+//Method of the button 'Down'. Plays the role of a navigation controller.
 - (IBAction)backDownAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

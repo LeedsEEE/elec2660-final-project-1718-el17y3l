@@ -66,7 +66,7 @@
     return _pickerView;
 }
 
-//Configuring the array of the picker
+//Configuring the array of the picker.
 - (NSArray *)dataArray{
     if (!_dataArray) {
         _dataArray = @[@"Small",@"Medium",@"Large",@"MPV",@"SUV"];
